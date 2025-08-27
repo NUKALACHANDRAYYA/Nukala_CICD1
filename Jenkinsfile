@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = 'nukalaCI-CDtest1/python-jenkins-app'
+    IMAGE_NAME = 'nukala_cicd1/python-jenkins-app'
     IMAGE_TAG = 'latest'
   }
 
