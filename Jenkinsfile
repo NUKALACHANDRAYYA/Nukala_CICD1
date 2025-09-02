@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    DOCKER_USER = nukal
+    DOCKER_USER = 'nukal'
     IMAGE_NAME = 'nukala_cicd1/python-jenkins-app'
     IMAGE_TAG = 'latest'
   }
